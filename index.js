@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 app.get('/api/message', (req, res) => {
   res.json({
     status: "success",
-    message: "Hello! This is your API response."
+    message: "Hello! My name is pritesh"
   });
 });
 
